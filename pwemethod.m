@@ -19,7 +19,7 @@ kz = linspace(0,2*pi/d,100);
 c = 3e8;
 
 % Decomposition constants
-N = 4; % This chooses the number of bands
+N = 0.50; % This chooses the number of bands
 % NB: choosing this number too small will lead to
 % an inaccurate band diagram due to truncation of
 % the Fourier series.
